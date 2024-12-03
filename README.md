@@ -1,10 +1,10 @@
-## Real-Time Emotion Detection Using Deep Learning
+# Real-Time Emotion Detection Using Deep Learning
 
-# Project Overview
+## Project Overview
 
 This project implements an AI-driven emotion detection system capable of recognizing five emotions: Angry, Happy, Neutral, Sad, and Surprise. It uses a fine-tuned MobileNet architecture for real-time emotion recognition from facial expressions, integrating OpenCV for face detection and a deep learning model for classification.The application is designed for practical use cases like human-computer interaction, mental health monitoring, and intelligent systems.
 
-# How It Works
+## How It Works
 
 **Data Preparation:**
 
@@ -21,7 +21,7 @@ The model is trained with callbacks for early stopping, learning rate reduction,
 The system captures video input, detects faces, preprocesses them, and passes them to the model for emotion prediction.
 The detected emotion is displayed in real time.
 
-# Technical Description
+## Technical Description
 
 **Model Architecture:**
 
@@ -59,7 +59,7 @@ Install the following Python libraries before running the project:
 pip install tensorflow keras opencv-python numpy matplotlib
 ```
 
-# Usage Instructions
+## Usage Instructions
 
 **Training:**
 
